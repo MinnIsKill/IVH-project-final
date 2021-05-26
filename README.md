@@ -1,2 +1,2 @@
 # IVH-project-final
-Project for VUT Brno - IVH (VHDL Seminar) 2020/21
+ Project for VUT Brno - IVH 2020/21

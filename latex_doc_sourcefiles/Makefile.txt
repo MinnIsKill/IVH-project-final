@@ -1,0 +1,14 @@
+# Vojtech Kalis (xkalis03)
+# Makefile for IVH doc
+
+# Project name
+NAME=doc
+
+all: 	$(NAME).tex
+	latex $(NAME).tex
+	latex $(NAME).tex
+	dvips -t a4 $(NAME).dvi
+	ps2pdf -sPAPERSIZE=a4 $(NAME).ps
+
+clean:
+	rm -f $(NAME).aux $(NAME).dvi $(NAME).log $(NAME).ps
