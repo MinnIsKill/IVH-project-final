@@ -1,0 +1,43 @@
+ISim log file
+Running: C:\FitkitSVN\apps\ivh-proj\proj3\build\fpga\testbench_isim_beh.exe -intstyle ise -gui -tclbatch C:/FitkitSVN/apps/ivh-proj/proj3/build/fpga/proj3_xsim.tcl -wdb C:/FitkitSVN/apps/ivh-proj/proj3/build/fpga/testbench_isim_beh.wdb 
+ISim O.40d (signature 0x79f3f3a8)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# set TESTBENCH_SCRIPT ../../fpga/sim/isim.tcl
+# set SIM_ENVIRONMENT ise
+# source ../../../../../base/xilinxisim.tcl
+/testbench/uut/fpga_inst/cnt : No such HDL object or HDL block
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 5000us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 5000us
+# run 5000us
+ISim O.40d (signature 0x79f3f3a8)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 10 ms
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1774148400 ps : File "C:/FitkitSVN/fpga/ctrls/spi/spi_ctrl.vhd" Line 88
+# restart
+# run 1s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 2681424 ns : File "C:/FitkitSVN/apps/ivh-proj/proj3/fpga/cell.vhd" Line 39
+# restart
+# run 1s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 81045246600 ps : File "C:/FitkitSVN/fpga/ctrls/spi/spi_ctrl.vhd" Line 88

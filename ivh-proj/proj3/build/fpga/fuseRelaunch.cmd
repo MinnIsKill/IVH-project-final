@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/FitkitSVN/apps/ivh-proj/proj3/build/fpga/testbench_isim_beh.exe" -prj "C:/FitkitSVN/apps/ivh-proj/proj3/build/fpga/testbench_beh.prj" "work.testbench" 

@@ -1,0 +1,5 @@
+vhdl work "../../../../../fpga/chips/architecture_gp/tlv_gp_ifc.vhd"
+vhdl work "../../fpga/matrix_pack.vhd"
+vhdl work "../../fpga/display.vhd"
+vhdl work "../../fpga/counter.vhd"
+vhdl work "../../fpga/top.vhd"

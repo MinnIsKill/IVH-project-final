@@ -1,0 +1,6 @@
+vhdl isim_temp "../../fpga/matrix_pack.vhd"
+vhdl isim_temp "../../../../../fpga/chips/architecture_gp/tlv_gp_ifc.vhd"
+vhdl isim_temp "../../fpga/lumin_board_fsm.vhd"
+vhdl isim_temp "../../fpga/display.vhd"
+vhdl isim_temp "../../fpga/cell.vhd"
+vhdl isim_temp "../../fpga/top.vhd"
