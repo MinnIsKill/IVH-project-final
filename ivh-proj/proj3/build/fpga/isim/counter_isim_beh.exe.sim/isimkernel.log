@@ -1,0 +1,5 @@
+Command line:
+   counter_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  1405
