@@ -1,0 +1,7 @@
+INFILE=C:\fitkitSVN\apps\ivh-proj\proj3\build\fpga\ivh_proj.par.ncd
+OUTFILE=C:\fitkitSVN\apps\ivh-proj\proj3\build\ivh_proj.bit
+FAMILY=Spartan3
+PART=xc3s50-4pq208
+WORKINGDIR=C:\fitkitSVN\apps\ivh-proj\proj3\build
+LICENSE=WebPack
+USER_INFO=174678435_1777548761_210713447_024
