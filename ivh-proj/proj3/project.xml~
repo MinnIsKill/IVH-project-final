@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project outputprefix="ivh_proj">
+
+	<!--  Project description -->
+	<name>IVH projekt - xkalis03</name>
+	<author>Vojtìch Kališ</author>
+	<authoremail>xkalis03@stud.fit.vutbr.cz</authoremail>
+	<revision>20210212</revision>
+	<description>IVH projekt - xkalis03</description>
+
+	<!--  MCU part -->
+	<mcu>
+		<file>main.c</file>
+	</mcu>
+
+	<!-- FPGA part -->
+	<fpga architecture="gp">
+		<file>top.vhd</file>
+		<file>display.vhd</file>
+        	<file>cell.vhd</file>
+        	<file>counter.vhd</file>
+		<file>matrix_pack.vhd</file>
+		<file>lumin_board_fsm.vhd</file>
+	</fpga>
+
+</project>
